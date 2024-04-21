@@ -11,7 +11,7 @@ pipeline {
          }
          stage("Checkout from SCM") {
              steps {
-                     git branch: 'main', credentialsId: 'github', url: 'https://github.com/wariedap/a-reddit-clone-gitops.git'
+                     git branch: 'main', credentialsId: 'github', url: 'https://github.com/wariedap/a-reddit-clone-gitops'
              }
          }
          stage("Update the Deployment Tags") {
