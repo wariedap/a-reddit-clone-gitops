@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: reddit-clone-app
-          image: osanyap/reddit-clone-pipeline:1.0.0-6
+          image: osanyap/reddit-clone-pipeline:1.0.0-4
           resources:
             limits:
               cpu: "1"
