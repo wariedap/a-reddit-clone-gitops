@@ -4,7 +4,7 @@ pipeline {
           APP_NAME = "reddit-clone-pipeline"
     }
     stages {
-         stage("Cleanup Workspace") {
+         stage("Cleanup WOrkspace") {
              steps {
                 cleanWs()
              }
